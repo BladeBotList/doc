@@ -23,7 +23,6 @@ module.exports = {
 		{
 			title: 'Users',
 			children: [
-				'/users/'
 			],
 		},
 		{

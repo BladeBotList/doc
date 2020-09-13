@@ -5,7 +5,8 @@
   "scripts": {
     "lint": "eslint . --ext js,md,vue",
     "serve": "vuepress dev docs",
-    "build": "NODE_ENV=production vuepress build docs"
+    "build": "NODE_ENV=production vuepress build docs",
+    "devbuild":"vuepress build docs"
   },
   "repository": "https://github.com/bladebotlist/docs.git",
   "author": "HiiZun",
