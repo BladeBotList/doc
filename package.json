@@ -1,0 +1,31 @@
+{
+  "name": "bbl-docs",
+  "description": "BladeBotList's documentation, based on discordjs.guide.",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint . --ext js,md,vue",
+    "serve": "vuepress dev docs",
+    "build": "NODE_ENV=production vuepress build docs"
+  },
+  "repository": "https://github.com/bladebotlist/docs.git",
+  "author": "HiiZun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bladebotlist/docs/issues"
+  },
+  "homepage": "https://docs.bladebotlist.xyz",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.0",
+    "eslint-config-sora": "^2.0.0",
+    "eslint-plugin-markdown": "^1.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "vuepress": "^1.2.0"
+  },
+  "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "semver": "^6.0.0",
+    "vue-discord-message": "^3.2.5",
+    "vuepress-theme-yuu": "^2.2.0"
+  }
+}
