@@ -38,7 +38,7 @@
 const BBL = require("../app");
 const client = new BBL(
     "", // BOT_ID
-    "", // API_KEY, use bbl!key gen on the discord server
+    "", // API_KEY,
     {
         server_count: "20", // number of servers ie: discordjs v12 => client.guilds.cache.size
         shard_count: "0", // number of shards, null if not defined
@@ -72,7 +72,7 @@ client.on("error", (error) => console.log(`Something was wrong when the module h
 const BBL = require("../app");
 const client = new BBL(
     "", // BOT_ID
-    "", // API_KEY, use bbl!key gen on the discord server
+    "", // API_KEY,
     {
         server_count: "3000",
         shard_count: "20",
