@@ -11,8 +11,8 @@ module.exports = {
 			children: [
 				'/api/introduction',
 				'/api/fetch-data',
+				'/api/post-data',
 				'/api/using-webhooks',
-				'/api/post-data'
 			],
 		},
 		{
