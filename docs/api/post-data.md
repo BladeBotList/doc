@@ -1,35 +1,31 @@
 # Post informations
 
-## Using module
+## Using our module
 
-**READ MODULE'S DOCS**
+Read the package docs before using it!  
 [NODE.js Module](https://www.npmjs.com/package/bbl-api)
 
-### Manual post
+## Posting manually
 
-#### Important
+### Headers
 
-Things with \* are mandatory
+| Key           | Value            |
+| ------------- | ---------------- |
+| Authorization | Bot's API KEY    |
+| Content-Type? | application/json |
 
-**Please add these things in headers**
+### Body
 
-| Key             | Value            |
-| --------------- | ---------------- |
-| authorization\* | Bot's API KEY    |
-| Content-Type    | application/json |
+| Key          | Value                        |
+| ------------ | ---------------------------- |
+| server_count | number of servers            |
+| shard_count? | number of shards, if sharded |
 
-**Please add these things in body **as json****
-
-| Key           | Value                       |
-| ------------- | --------------------------- |
-| servercount\* | number of servers           |
-| shardcount    | number of shards if sharded |
-
-**Then you will need to do this request**
+### Endpoint
 
 `POST /bots/:botID/stats`
 
-_Output:_<br>
+### Response
 
 ```json
 {

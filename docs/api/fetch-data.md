@@ -2,14 +2,14 @@
 
 ### IMPORTANT
 
-**Please make sure to read the introduction before request help !**
+**Please make sure to read the introduction before request help !**  
+_Fetching data must be done with a GET request_
 
-_Fetching data must be do with a GET request_
+## Fetch global statistics about a bot
 
-##### fetch global statistics about a bot
+`GET /bots/:botID/`
 
-`GET /bots/:botID/`<br>
-**Output:**
+Response:
 
 ```json
 {
@@ -33,17 +33,17 @@ _Fetching data must be do with a GET request_
 }
 ```
 
-##### Fetch a array of bots in the botlist
+## Fetch a array of bots in the botlist
 
 `GET /bots`
 
 **PRIVATE ENDPOINT**
 
-##### Fetch if a user has voted for a bot
+## Fetch if a user has voted for a bot
 
 `GET /bots/:botID/votes/:userID`
 
-**Output:**
+Response:
 
 ```json
 {
